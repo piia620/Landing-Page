@@ -1,0 +1,118 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(Images/photos-hills-horizon-india.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 80px;
+  cursor: pointer;
+
+}
+.menu{
+  width:50px;
+  cursor: pointer;
+  margin: 30px;
+
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 15;
+}
+.row{
+  display: flex;
+  height: 88%;
+  align-items: center;
+  position: absolute;
+  top: -30px;
+}
+.col{
+  flex-basis: 50%;
+  padding-left: 190px;
+  color: white;
+}
+h1{
+  font-family:emoji;
+  line-height: 23px;
+  font-size: 65px;
+
+}
+p{
+  align-content: space-around;
+  font-family:emoji;
+  line-height: 23px;
+}
+button{
+  width: auto;
+  color: black;
+  font-family: cursive;
+}
+.card{
+  width:290px;
+  height: 100px;
+  display:inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing:border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(Images/Panchgani_table_land_20180412120459.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: transform(0.5s);
+}
+.card1{
+  background-image: url(Images/table land.jpg);
+  color: white;
+}
+.card2{
+  background-image: url(Images/sydney-point.jpg);
+    color: white;
+}
+.card3{
+  background-image: url(Images/06-1501988483-p12.jpg);
+  color: black;
+}
+.card4{
+  background-image: url(Images/download.jpg);
+  color: black;
+}
+.card:hover{
+  transform: translateY(-10px);
+}
+h5 {
+  color:black;
+  text-shadow: 0 0 5px #999;
+}
+.card p{
+  text-shadow:0 0 15px #999;
+  font-size: 12px;
+}
+.col2{
+  padding-top: 120px;
+}
